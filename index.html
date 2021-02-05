@@ -14,7 +14,7 @@
       <h3 class="new-task__title">Новая задача</h3>
       <div class="new-task__wrap">
         <input class="new-task__input" type="text" placeholder="Название задачи" name="task-name">
-        <button class="add-button" type="button">Добавить</button>
+        <button class="add-button" type="button" aria-label='Добавить новую задачу'>Добавить</button>
       </div>
     </section>
     <section class="task-list">
@@ -42,7 +42,7 @@
           <h4 class="list__title deleted__title">Корзина</h4>
           <ul class="list deleted">
           </ul>
-          <button class="delete-button" type="button">Очистить</button>
+          <button class="delete-button" type="button" aria-label='Удалить задачи'>Очистить</button>
         </div>
       </div>
     </section>
@@ -52,7 +52,7 @@
   	<li class="list__item">
   		<p class="item__content"></p>
       <div class="visually-hidden item__edit">
-        <input class="item__input" type="text" name="">
+        <input class="item__input" type="text" name="new-task-name">
         <div class="item__buttons">
           <button class="item__done-button" type="button" aria-label='Сохранить изменения'></button>
           <button class="item__edit-button" type="button" aria-label='Редактировать'></button>
@@ -61,6 +61,7 @@
   	</li>
   </template>
 
+  <script src="js/script.js"></script>
 </body>
 </html>
 
