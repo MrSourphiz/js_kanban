@@ -236,7 +236,9 @@ fieldset {
 	height: 25px;
 
 	background-color: transparent;
-	background-image: url('img/edit.svg');
+  background-image: url('../img/edit.svg');
+  background-position: center;
+  background-repeat: no-repeat;
 	background-size: 25px 25px;
 
 	border: none;
