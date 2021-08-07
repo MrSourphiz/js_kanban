@@ -2,7 +2,8 @@
   "name": "js-kanban",
   "version": "1.0.0",
   "private": true,
-  "description": "Простая канбан-доска на ванильном JS",
+  "homepage": "https://mrsourphiz.github.io/js_kanban/",
+  "description": "Простая канбан-доска на нативном JS",
   "repository": {
     "type": "git",
     "url": "git@github.com:MrSourphiz/js_kanban.git"
